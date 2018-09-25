@@ -1,7 +1,7 @@
 function deepClone(initalObj, finalObj) {
     var obj = finalObj || {};
     for (var i in initalObj) {
-        var prop = initalObj[i];        // ±ÜÃâÏà»¥ÒıÓÃ¶ÔÏóµ¼ÖÂËÀÑ­»·£¬ÈçinitalObj.a = initalObjµÄÇé¿ö
+        var prop = initalObj[i]; // é¿å…ç›¸äº’å¼•ç”¨å¯¹è±¡å¯¼è‡´æ­»å¾ªç¯ï¼Œå¦‚initalObj.a = initalObjçš„æƒ…å†µ
         if (prop === obj) {
             continue;
         }
